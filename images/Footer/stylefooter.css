@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@600&family=Poppins:wght@500&family=Tilt+Prism&display=swap');
+.heading2{
+    color: rgb(18, 5, 5);
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.socialmedia_button{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+    
+}
+.icon{
+    display: flex;
+    list-style: none;
+    
+    
+}
+.fa-solid{
+    margin: 30px;
+}
+.fa-regular{
+    margin: 30px;
+}
+
+    
