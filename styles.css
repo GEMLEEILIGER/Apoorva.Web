@@ -3,7 +3,11 @@
 body{
     font-family: sans-serif;
     margin: 0;
-}.heading1{
+}
+.container1{
+    height: 130vh;
+}
+.heading1{
     color: rgb(184, 29, 29);
     text-align: center;
     text-transform: uppercase;
@@ -109,8 +113,10 @@ a {
 }
 .footer{
     text-align: center;
-    
-    
+    padding-top: 120px;
+}
+img{
+    width: 600px;
 }
 .fa-brands{
     font-size: 20px;
@@ -185,6 +191,56 @@ background-image: linear-gradient(43deg, #5dd041 0%, #c8a250 30%, #ff8770 66%, #
 }
 .right_cv>h3{
     color: blue;
+}
+.contact{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 50px 0;
+    
+}
+.data_input{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+label{
+    text-align: start;
+    font-size: 20px;
+}
+input{
+    padding: 10px;
+    outline: none;
+}
+.head_s{
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.send_1{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #FBDA61;
+background-image: linear-gradient(90deg, #FBDA61 0%, #FF5ACD 100%);
+
+}
+.send_1:hover{
+    cursor: pointer;
+}
+textarea{
+    outline: none;
+}
+form{
+    background-color: #85FFBD;
+background-image: linear-gradient(281deg, #85FFBD 0%, #FFFB7D 100%);
+    height: 85vh;
+    width: 70vw;
+    margin: auto;
+    
+    
 }
 
 
